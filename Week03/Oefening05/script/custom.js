@@ -11,10 +11,10 @@ String.prototype.shuffle = function () {
 	}
 	return a.join("");
 }
-document.getElementById('shuffle').innerHTML = 'Superman'.shuffle();
+document.getElementById('shuffle').innerHTML = 'Cookiemonster'.shuffle();
 function ww(e){
 	
-	let juistpass = "Superman";
+	let juistpass = "Cookiemonster";
 	let aantalClicks = 1;
 
 	let message = prompt('Geef het wachtwoord in');
