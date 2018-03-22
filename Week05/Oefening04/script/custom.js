@@ -36,7 +36,6 @@ for (let i = 0; i < blocks.length; i++) {
 
   // functionality after a click
   blocks[i].onclick = function(event) {
-    // @todo build game
 
     let block = event.target;
 
@@ -47,8 +46,8 @@ for (let i = 0; i < blocks.length; i++) {
     if (activeBlocks.length == 2) {
       checkBlocks();
       
-      // Laat de vakjes na 2 seconden verdwijnen
-      setTimeout(hideBlocks, 2000);
+      // Laat de vakjes na 1.5 seconden verdwijnen
+      setTimeout(hideBlocks, 1500);
     }
   }
 }
@@ -74,7 +73,7 @@ function checkBlocks() {
     // haal de achterground op
     let background = activeBlocks[0].style.backgroundImage;
     // wijs een achterground toe aan het element
-    newDive.style.backgroundImage = background;
+    newDiv.style.backgroundImage = background;
     
     let foundContainer = document.getElementById('found');
     foundContainer.appendChild(newDiv);
