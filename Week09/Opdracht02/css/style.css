@@ -1,0 +1,32 @@
+ textarea:valid, input:valid {
+    border: 2px solid turquoise;
+    background-color: springgreen;
+}
+
+textarea:valid, input:invalid {
+    border: 2px solid red;
+    background-color: yellow;
+}
+
+body{
+  background: #007575;
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-family: Built Titling;
+    font-size: 75px;
+}
+
+li{
+    list-style-type: none;
+    text-align: center;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+input{
+    width: 350px;
+}

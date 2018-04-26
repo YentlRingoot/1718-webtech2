@@ -1,0 +1,9 @@
+body{
+    background:url(../img/bg.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.center{
+margin-left: 44.5%;
+margin-top: 7%;
+}
